@@ -73,5 +73,10 @@ namespace HubSpot.NET.Api.Engagement.Dto
         [DataMember(Name = "timestamp")]
         public long? Timestamp { get; set; }
 
+        [DataMember(Name = "createdAt")]
+        public long? CreatedAt { get; set; }
+
+        [DataMember(Name = "lastUpdated")]
+        public long? LastUpdated { get; set; }
     }
 }
